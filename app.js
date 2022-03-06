@@ -8,7 +8,7 @@ const app=express();
 app.use(express.json());
 
 app.use('/movies',moviesRouter);
-app.use('/users', actorsRouter);
+app.use('/actors', actorsRouter);
 
 
 export default app
